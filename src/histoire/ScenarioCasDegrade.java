@@ -1,16 +1,18 @@
 package histoire;
 
 import personnages.Chef;
+import personnages.Druide;
 import personnages.Gaulois;
 import villagegaulois.Etal;
+import villagegaulois.Village;
 
-public class ScenariosCasDegrade {
+public class ScenarioCasDegrade {
 	
 	public static void main(String[] args) {
 		Etal etal = new Etal();
-		Gaulois assurancetourix = new Gaulois("Assurancetourix", 2);
-		etal.occuperEtal(assurancetourix, "fraise", 0);
-		etal.acheterProduit(1,assurancetourix);
+		etal.acheterProduit(10, null);
 		System.out.println("Fin du test");
+		
+		
 	}
 }
