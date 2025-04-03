@@ -43,8 +43,7 @@ public class Village {
 				if(etals[i].contientProduit(produit)) nbEtal++;
 			}
 			Etal[] etalsProduit = new Etal[nbEtal];
-			int i = 0;
-			for(int j = 0; j < etals.length; j++) {
+			for(int i = 0, j = 0; j < etals.length; j++) {
 				if(etals[j].contientProduit(produit)) {
 					etalsProduit[i] = etals[j];
 					i++;
